@@ -1,4 +1,4 @@
-package tay.example.manage_stock_of_bock
+package tay.example.manage_stock_of_book
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
