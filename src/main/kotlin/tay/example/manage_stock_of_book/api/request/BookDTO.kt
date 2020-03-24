@@ -1,5 +1,6 @@
 package tay.example.manage_stock_of_book.api.request
 
+import tay.example.manage_stock_of_book.model.Category
 import javax.validation.constraints.NotNull
 import javax.validation.constraints.Pattern
 
@@ -74,4 +75,10 @@ data class UpdateBookDTO(
         var publish_year: Int?,
 
         var category: Long?
+)
+
+
+data class BookListRequest(
+        var searchValue: String?,
+        var category: Category?
 )

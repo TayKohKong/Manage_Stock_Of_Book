@@ -45,11 +45,11 @@ data class Book(
         var publishYear: Int,
 
         @CreationTimestamp
-        @Column(name ="createdAt")
+        @Column(name ="created_at")
         var createdAt: LocalDateTime = LocalDateTime.now(),
 
         @UpdateTimestamp
-        @Column(name = "updatedAt")
+        @Column(name = "updated_at")
         var updatedAt: LocalDateTime = LocalDateTime.now()
 ){
     @ManyToOne
